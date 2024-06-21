@@ -1,0 +1,219 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, #000 30%, #720d6d);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#fff;
+}
+/* Estilos para o cabeçalho */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/* Estilo para centralizar a imagem */
+.logo {
+    margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color:#000000;
+    text-align: center;
+    padding: 10px; /* Aumentando a altura da barra de navegação */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os pontos de lista */
+    padding: 0;
+    margin: 0; /* Removendo a margem */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens de navegação em linha */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none; /* Remove o sublinhado quando o mouse passa sobre o link */
+    color: #fff; /* Mantém a cor do texto padrão */
+}
+
+.titulo1, .titulo2, .titulo3, .titulo4, .titulo5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    color: #fff;
+}
+
+.titulo1 {
+    margin: 110px 30px 0px 777px; /* top, right, bottom, left */
+}
+
+.titulo2 {
+    margin: 160px 30px 0px 200px; /* top, right, bottom, left */
+}
+
+.titulo3 {
+    margin: 150px 30px 0px 777px; /* top, right, bottom, left */
+}
+
+.titulo4 {
+    margin: 120px 30px 0px 300px; /* top, right, bottom, left */
+}
+
+.titulo5 {
+    margin: 110px 30px 0px 820px; /* top, right, bottom, left */
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content1 img {
+    margin-left: 120px; /* Move a imagem para a direita */
+    margin-right: 30px; /* Define uma margem direita */
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+.textA {
+    max-width: 50%; /* Defina o valor máximo de largura conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-left: 70px; /* Move o texto um pouco para a esquerda */
+}
+
+.textA p {
+    color: #fff; /* Cor do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: justify; /* Alinhar o texto justificado */
+}
+
+.content2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.textB {
+    max-width: 50%; /* Defina a largura máxima para o texto */
+    margin-left: 90px; /* Adiciona uma margem do lado esquerdo */
+    margin-top: 0px;
+}
+
+.imagem-teste2 {
+    margin-left: 140px; /* Move a imagem para a direita */
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+.textB p {
+    color: #fff; /* Cor do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: justify; /* Alinhar o texto justificado */
+}
+
+.content3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content3 img {
+    margin-left: auto; /* Move a imagem para a direita */
+    margin-right: 10px; /* Define uma margem direita */
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.textC {
+    max-width: 50%; /* Defina o valor máximo de largura conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-left: 70px; /* Move o texto um pouco para a esquerda */
+}
+
+.textC p {
+    color: #fff; /* Cor do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: justify; /* Alinhar o texto justificado */
+    margin-top: 40px;
+}
+
+.content4 {
+    display: flex;
+    align-items: center;
+}
+
+.textD {
+    max-width: 50%; /* Defina a largura máxima para o texto */
+    margin-left: 90px; /* Adiciona uma margem do lado esquerdo */
+    margin-top: 0px;
+}
+
+.imagem-teste4 {
+    margin-left: 140px; /* Move a imagem para a direita */
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+.textD p {
+    color: #fff; /* Cor do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: justify; /* Alinhar o texto justificado */
+}
+
+:root {
+    --verde: #d5ef07;
+}
+
+/* Estilo para as palavras-chave */
+.content1 strong,
+.content2 strong,
+.content3 strong,
+.content4 strong {
+    color: var(--verde); /* Cor das palavras-chave */
+    font-size: 1.2em; /* Tamanho da fonte das palavras-chave */
+    font-weight: bold; /* Negrito para as palavras-chave */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-top: 150px ;
+  }

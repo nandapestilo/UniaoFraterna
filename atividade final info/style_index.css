@@ -1,0 +1,276 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #000 30%, #720d6d);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+.titulo1, .titulo2, .titulo3, .titulo4, .titulo5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    color: #fff;
+}
+
+.titulo1 {
+    margin: 80px 30px 5px 830px; /* top, right, bottom, left */
+}
+
+.titulo2 {
+    margin: 120px 30px 5px 350px; /* top, right, bottom, left */
+}
+
+.titulo3 {
+    margin: 80px 30px 5px 750px; /* top, right, bottom, left */
+}
+
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+hr {
+    margin: 0;
+    height: 1px; /* Adicione esta linha para definir a altura da linha */
+    background-color: #ffffff; /* Adicione esta linha para definir a cor da linha (opcional) */
+}
+
+/* Estilo para centralizar a imagem */
+.logo {
+    margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px; /* Aumentando a altura da barra de navegação */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os pontos de lista */
+    padding: 0;
+    margin: 0; /* Removendo a margem */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens de navegação em linha */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul li a:hover {
+    text-decoration: none; /* Remove o sublinhado quando o mouse passa sobre o link */
+    color: #fff; /* Mantém a cor do texto padrão */
+}
+
+:root {
+    --verde: #d5ef07;
+}
+
+/* Elemento separador com box shadow */
+.separator {
+    height: 3px; /* Ajuste a altura conforme necessário */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content1 img {
+    margin-left: auto; /* Move a imagem para a direita */
+    margin-right: 10px; /* Define uma margem direita */
+    border-radius: 20px;
+}
+
+.text1 {
+    max-width: 600px; /* Defina o valor máximo de largura conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-left: 90px; /* Move o texto um pouco para a esquerda */
+}
+
+.text1 p {
+    color: #fff; /* Cor do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: justify; /* Alinhar o texto justificado */
+    margin-top: 5px; /* Margem superior para separar os parágrafos dos títulos */
+}
+
+.content2 {
+    display: flex;
+    align-items: center;
+}
+
+.text2 {
+    max-width: 40%; /* Defina a largura máxima para o texto */
+    margin-left: 170px; /* Adiciona uma margem do lado esquerdo */
+}
+
+.imagem-teste2 {
+    margin-left: 140px; /* Move a imagem para a direita */
+    border-radius: 20px;
+}
+
+.text2 p {
+    color: #fff; /* Cor do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: justify; /* Alinhar o texto justificado */
+    margin-top: 5px; /* Margem superior para separar os parágrafos dos títulos */
+}
+
+.content3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content3 img {
+    margin-left: auto; /* Move a imagem para a direita */
+    margin-right: 10px; /* Define uma margem direita */
+    border-radius: 20px;
+}
+
+.text3 {
+    max-width: 600px; /* Defina o valor máximo de largura conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-left: 90px; /* Move o texto um pouco para a esquerda */
+}
+
+.text3 p {
+    color: #fff; /* Cor do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: justify; /* Alinhar o texto justificado */
+    margin-top: 5px; /* Margem superior para separar os parágrafos dos títulos */
+}
+
+/* Estilo para as palavras-chave */
+.text1 strong,
+.text2 strong,
+.text3 strong {
+    color: var(--verde); /* Cor das palavras-chave */
+    font-size: 1.2em; /* Tamanho da fonte das palavras-chave */
+    font-weight: bold; /* Negrito para as palavras-chave */
+}
+
+/* CSS para os títulos das listas */
+.titulo4, .titulo5 {
+    color: var(--verde); /* Cor dos títulos das listas */
+    font-size: 2em; /* Tamanho da fonte dos títulos das listas */
+    text-align: center; /* Centralizar o texto dos títulos das listas */
+}
+
+/* Atividades e Ministérios */
+.atividades, .ministerios {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens ao início do contêiner */
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+}
+
+.atividades-img{
+    display: flex;
+    flex-wrap: wrap; /* Permitir que as imagens quebrem para uma nova linha quando não couberem */
+    justify-content: center; /* Centralizar as imagens horizontalmente */
+    margin-bottom: 20px; /* Adicionar espaço entre as duas linhas de imagens */
+    margin-left: 200px;
+}
+.ministerios-img {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que as imagens quebrem para uma nova linha quando não couberem */
+    justify-content: center; /* Centralizar as imagens horizontalmente */
+    margin-bottom: 20px; /* Adicionar espaço entre as duas linhas de imagens */
+    margin-left: 320px;
+}
+
+.atividades-img img{
+    width: 230px; /* Largura das imagens */
+    height: 230px; /* Altura automática para manter a proporção */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 5px; /* Adicionar espaço entre as imagens */
+}
+.ministerios-img img {
+    width: 230px; /* Largura das imagens */
+    height: 230px; /* Altura automática para manter a proporção */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 5px; /* Adicionar espaço entre as imagens */
+}
+/* Texto */
+.atividades ul{
+    list-style-type: none; /* Remove os pontos da lista */
+    padding: 0; /* Remove o espaçamento interno da lista */
+
+} 
+.ministerios ul {
+    list-style-type: none; /* Remove os pontos da lista */
+    padding: 0; /* Remove o espaçamento interno da lista */
+
+}
+
+.atividades li{
+    color: #fff; /* Cor dos itens da lista */
+    font-family: "Montserrat", sans-serif; /* Fonte dos itens da lista */
+    font-weight: 400; /* Peso da fonte dos itens da lista */
+    font-style: normal; /* Estilo da fonte dos itens da lista */
+    line-height: 1.5; /* Espaçamento entre linhas dos itens da lista */
+    margin-bottom: 10px; /* Espaçamento inferior entre os itens da lista */
+}
+.ministerios li {
+    color: #fff; /* Cor dos itens da lista */
+    font-family: "Montserrat", sans-serif; /* Fonte dos itens da lista */
+    font-weight: 400; /* Peso da fonte dos itens da lista */
+    font-style: normal; /* Estilo da fonte dos itens da lista */
+    line-height: 1.5; /* Espaçamento entre linhas dos itens da lista */
+    margin-bottom: 10px; /* Espaçamento inferior entre os itens da lista */
+    white-space: nowrap; /* Impede que as palavras quebrem para uma nova linha */
+    
+}
+
+/* Content Rectangle */
+.content-rectangle {
+    border: 1px solid var(--verde); /* Borda verde ao redor do retângulo */
+    padding: 20px; /* Espaçamento interno do retângulo */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 20px; /* Espaçamento externo do retângulo */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semitransparente */
+}
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat", sans-serif; /* Fonte dos itens da lista */
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

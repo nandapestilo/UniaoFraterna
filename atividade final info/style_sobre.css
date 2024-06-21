@@ -1,0 +1,126 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #000 30%, #720d6d);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Estilo para centralizar a imagem */
+.logo {
+    margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #000;
+    text-align: center;
+    padding: 10px; /* Aumentando a altura da barra de navegação */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os pontos de lista */
+    padding: 0;
+    margin: 0; /* Removendo a margem */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens de navegação em linha */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none; /* Remove o sublinhado quando o mouse passa sobre o link */
+    color: #fff; /* Mantém a cor do texto padrão */
+}
+
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.contact .map {
+    margin-top: 20px;
+}
+
+iframe {
+    border-radius: 20px;
+}
+
+.content1 {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.titulo1 {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.icones {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px; /* Ajuste o tamanho conforme necessário */
+    margin: 10px; /* Espaçamento entre os ícones */
+}
+
+strong {
+    color: var(--verde);
+    font-size: 1em;
+}
+
+/* Define uma variável CSS chamada --verde com a cor verde (#d5ef07) */
+:root {
+    --verde: #d5ef07;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-top: 100px;
+}
+
+.social-media {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.social-media h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}

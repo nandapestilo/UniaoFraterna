@@ -1,0 +1,112 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Adiciona esta linha */
+}
+
+body {
+    background-image: linear-gradient(to right, #000 30%, #720d6d);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    overflow-x: hidden; /* Impede a rolagem horizontal */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Estilo para centralizar a imagem */
+.logo {
+    margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px; /* Aumentando a altura da barra de navegação */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os pontos de lista */
+    padding: 0;
+    margin: 0; /* Removendo a margem */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens de navegação em linha */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(26% - 21px); /* Quatro cards lado a lado */
+    height: 430px; /* Diminuída a altura */
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+}
+
+.imgem {
+    width: 50%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em; /* Diminuído ainda mais o tamanho da fonte */
+    color: black;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.75em; /* Diminuído ainda mais o tamanho da fonte */
+    color: black;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat", sans-serif; /* Fonte dos itens da lista */
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Adiciona esta linha */
+    margin-top: 20px;
+}

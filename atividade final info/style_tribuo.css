@@ -1,0 +1,138 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Adicionando box-sizing para facilitar o controle do layout */
+}
+
+body {
+    background-image: linear-gradient(to right, #000 30%, #720d6d);
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden; /* Previne a rolagem horizontal */
+}
+
+header {
+    background-color: #000;
+    text-align: center;
+    padding: 5px;
+}
+
+hr {
+    background-color: white;
+}
+
+nav {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content1{
+    display: flex;
+    flex-wrap: wrap; /* Permite que o conteúdo se ajuste em telas menores */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    margin: 20px 0; /* Espaçamento entre as seções */
+}
+
+
+.content2 {
+    display: flex;
+    flex-wrap: wrap; /* Permite que o conteúdo se ajuste em telas menores */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    margin: 20px 0; /* Espaçamento entre as seções */
+    flex-direction: row-reverse; /* Inverte a ordem dos elementos */
+}
+
+.content1 img, .content2 img {
+    border-radius: 10px;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+}
+
+.text1, .text2 {
+    max-width: 600px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px; /* Adiciona preenchimento ao redor do texto */
+}
+
+.text1 {
+    margin-left: 20px;
+}
+
+.text2 {
+    margin-right: 20px;
+    /* Removendo margin-top, pois flex-direction: row-reverse já ajusta a ordem */
+}
+
+.text1 strong,
+.text2 strong {
+    color: var(--verde);
+    font-size: 1.2em;
+}
+
+:root {
+    --verde: #d5ef07;
+}
+
+.gallery {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.gallery h2 {
+    color: var(--verde);
+    margin-bottom: 20px;
+    margin-top: 130px;
+    font-size: 30px;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat", sans-serif; /* Fonte dos itens da lista */
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

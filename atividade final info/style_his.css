@@ -1,0 +1,131 @@
+
+/* Aplica um gradiente de fundo ao corpo da página, do preto (#000000) ocupando 30% do espaço 
+   para uma cor roxa (#720d6d) até o final */
+   body {
+    background-image: linear-gradient(to right, #000000 30%, #720d6d);
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Estiliza o cabeçalho (header) com fundo preto, alinha o texto ao centro e adiciona um padding de 5px */
+header {
+    background-color: #000000;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Define a cor de fundo das linhas horizontais (hr) como branco */
+hr {
+    background-color: #ffffff;
+}
+
+/* Estiliza a barra de navegação (nav) com fundo preto, alinhamento central do texto e padding de 10px */
+nav {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Remove a margem dos itens da lista na navegação */
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define os itens da lista na navegação para serem exibidos em linha e adiciona um espaçamento de 20px à direita */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Define a cor dos links na navegação como branco e colocar fonte */
+nav ul li a {
+    font-family: "Montserrat", "sans-serif";
+    color: #fff;
+}
+
+/* Remove o sublinhado dos links na navegação ao passar o mouse (hover) e mantém a cor branca */
+nav ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estiliza um título com margem específica, fonte Montserrat, tamanho de 30px e cor branca */
+.titulo1 {
+    margin: 30px 30px -50px 803px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Define um contêiner flexível para os elementos com a classe content1 */
+.content1 {
+    display: flex;
+}
+
+/* Adiciona margens automáticas para alinhar a imagem à direita, 
+   margem à direita de 10px e bordas arredondadas */
+.content1 img {
+    margin-left: auto;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+/* Define um contêiner de texto com largura máxima de 600px, margem automática 
+   e margem à esquerda de 90px, Estiliza os parágrafos dentro da classe text1 com cor branca, fonte Montserrat e alinhamento justificado */
+.text1 {
+    max-width: 600px;
+    margin: auto;
+    margin-left: 90px;
+    margin-top: 80px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    line-height: 1.5;/*espaçamento entre linhas*/
+}
+
+/* Estiliza os parágrafos dentro da classe text1 com cor branca, fonte Montserrat e alinhamento justificado */
+
+/* Estiliza outro título com margens específicas, fonte Montserrat, tamanho de 30px e cor branca */
+.titulo2 {
+    margin: 50px 30px 30px 420px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Define um contêiner de texto com largura máxima de 850px, cor branca, margem automática, 
+   alinhamento justificado e fonte Montserrat */
+.text2 {
+    max-width: 850px;
+    color: #fff;
+    margin: auto;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5; /*espaçamento entre linhas*/
+}
+
+/* Estiliza o texto forte (strong) dentro das classes text1 e text2 com a cor definida pela variável --verde 
+   e tamanho de fonte 1.2em */
+.text1 strong,
+.text2 strong {
+    color: var(--verde);
+    font-size: 1.2em;
+}
+
+/* Define uma variável CSS chamada --verde com a cor verde (#d5ef07) */
+:root {
+    --verde: #d5ef07;
+}
+
+/* Estiliza o rodapé (footer) com alinhamento central do texto, padding de 15px, 
+   fundo preto, cor do texto branca, fonte Montserrat, tamanho de fonte 16px e margem superior de 20px */
+   footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-top: 100px ;
+  }
